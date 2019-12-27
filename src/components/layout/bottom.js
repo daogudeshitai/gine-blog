@@ -49,6 +49,9 @@ export default (props) => (
                 Copyright 2019 <CopyrightIcon style={{ fontSize: '0.9em' }} /> <ULink
                     href={props.siteConfig.copyrightUrl} text={props.siteConfig.copyrightName} /> Powered by <ULink href="https://github.com/mayneyao/gine-blog" text="gine-blog" />
             </span>
+            <span style={{ display: 'block' }}>
+                 <ULink href="http://www.beian.miit.gov.cn"  text="京ICP备19054516号" /> 
+            </span>
         </Typography>
 
     </div>
